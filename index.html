@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<title>Passenger Counter</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>People entered:</h1>	
+			<h2 id="count-el">0</h2>
+			<button id="increment-btn" onclick="increment()">INCREMENT</button>
+			<button id="save-btn" onclick="save()">SAVE</button>
+				<div id="record-section" class="container">
+					<h2 id="save-el">Previous entries: </h2>
+					<h1>Total # of passengers: </h1>
+					<h2 id="total-el">0</h2>
+				</div>
+			<button id="reset-btn" onclick="reset()">RESET COUNT</button>
+		</div>
+	<script src="index.js" type="text/javascript"></script>
+	</body>
+</html>
